@@ -3,7 +3,6 @@ restore model and observation_bounds
 
 """
 from joblib import load
-import pandas as pd
 import streamlit as st
 
 
