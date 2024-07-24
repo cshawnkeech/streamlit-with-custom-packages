@@ -1,8 +1,14 @@
+"""
+Detect file structure for Streamlit app
+discover method for adding custom module to path
+"""
+
 import os
 import sys
 import streamlit as st
 
 import add_path
+
 from src.constants import KS_ALERTS_ENDPOINT
 
 p = sys.path
