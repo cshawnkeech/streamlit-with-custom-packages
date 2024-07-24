@@ -35,6 +35,9 @@ def restore_bounds():
     return bounds
 
 
+MODEL = restore_model
+
+
 if __name__ == "__main__":
 
     print(restore_bounds())
